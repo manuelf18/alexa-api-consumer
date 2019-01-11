@@ -1,0 +1,3 @@
+[submodule "express-server-tarot"]
+	path = express-server-tarot
+	url = https://git.heroku.com/alexa-skill-tarot.git

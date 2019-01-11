@@ -3,14 +3,14 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Sample Short Description",
+          "summary": "Alexa tells you your past, your present, and your future",
           "examplePhrases": [
-            "Alexa open hello world",
-            "hello",
+            "Alexa open tarot",
+            "Alexa tell tarot drawer to read my fortune",
             "help"
           ],
-          "name": "Hello World",
-          "description": "Sample Full Description"
+          "name": "Tarot Drawer",
+          "description": "Alexa draws three cards from a tarot deck: The first card symbolizes your past, the second card symbolizes your present, and the third card symbolizes your future."
         }
       },
       "isAvailableWorldwide": true,
@@ -22,7 +22,7 @@
       "custom": {
         "endpoint": {
           "sourceDir": "lambda/custom",
-          "uri": "ask-custom-helloworld-default"
+          "uri": "ask-custom-my-new-skill-default"
         }
       }
     },

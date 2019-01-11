@@ -1,25 +1,31 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "hello world",
+      "invocationName": "tarot drawer",
       "intents": [
+        {
+          "name": "AnotherReadIntent",
+          "samples": [
+            "give me my fortune",
+            "give me another read",
+            "another read",
+            "tell me another read",
+            "read my cards"
+          ]
+        },
         {
           "name": "AMAZON.CancelIntent",
           "samples": []
         },
         {
           "name": "AMAZON.HelpIntent",
-          "samples": []
+          "samples": [
+            "help"
+          ]
         },
         {
           "name": "AMAZON.StopIntent",
           "samples": []
-        },
-        {
-          "name": "HelloWorldIntent",
-          "samples": [
-            "hello"
-          ]
         }
       ]
     }
