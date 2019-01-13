@@ -18,8 +18,7 @@ const ReadTarotIntentHandler = {
         speechText = `Im gonna draw three cards for you, they will represent your past, your present, and your future respectively.
                       Your first card is the ${cards[0].name}, it symbolizes your past, and it means that ${cards[0].meaning}.
                       Your second card is the ${cards[1].name}, it symbolizes your present, and it means that ${cards[1].meaning}.
-                      Your third card is the ${cards[2].name}, it symbolizes your future, and it means that ${cards[2].meaning}.
-                      if you want a new tarot read you can ask me "tell tarot drawer to give me another read".`
+                      Your third card is the ${cards[2].name}, it symbolizes your future, and it means that ${cards[2].meaning}.`
       }, 
       (error) => {
         speechText = "there was an error.";
@@ -44,7 +43,7 @@ const HelpIntentHandler = {
     return handlerInput.responseBuilder
       .speak(speechText)
       .reprompt(speechText)
-      .withSimpleCard('Hello World', speechText)
+      .withSimpleCard("Help text", speechText)
       .getResponse();
   },
 };
@@ -60,7 +59,7 @@ const CancelAndStopIntentHandler = {
 
     return handlerInput.responseBuilder
       .speak(speechText)
-      .withSimpleCard('Hello World', speechText)
+      .withSimpleCard('Cancel Action:', speechText)
       .getResponse();
   },
 };

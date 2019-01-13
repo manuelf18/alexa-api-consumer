@@ -3,14 +3,14 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Alexa tells you your past, your present, and your future",
+          "summary": "Get to know about your fortune after drawing three cards.",
           "examplePhrases": [
-            "Alexa open tarot",
-            "Alexa tell tarot drawer to read my fortune",
+            "Alexa, open tarot drawer",
+            "Alexa, ask tarot drawer to give me my fortune",
             "help"
           ],
           "name": "Tarot Drawer",
-          "description": "Alexa draws three cards from a tarot deck: The first card symbolizes your past, the second card symbolizes your present, and the third card symbolizes your future."
+          "description": "Draw three cards from a tarot deck: The first card symbolizes your past, the second card symbolizes your present, and the third card symbolizes your future."
         }
       },
       "isAvailableWorldwide": true,

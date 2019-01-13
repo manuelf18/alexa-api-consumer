@@ -6,7 +6,7 @@
       "merge": {},
       "resources": {
         "manifest": {
-          "eTag": "5d971c317fa12a6fb56d5e011c6b130c"
+          "eTag": "4650f6222e87840bc19ddfe5b0429cc9"
         },
         "interactionModel": {
           "en-US": {
@@ -23,7 +23,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-my-new-skill-default",
             "handler": "index.handler",
-            "revisionId": "a64a4d7d-7d6b-4614-a24a-ef900e70c96f",
+            "revisionId": "b5936e35-9591-4626-85b9-02037b7f3dc8",
             "runtime": "nodejs8.10"
           }
         ]
